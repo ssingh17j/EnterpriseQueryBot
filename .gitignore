@@ -172,3 +172,10 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# extra files created by vim
+*.un~
+*~
+
+# gradio files
+.gradio/
