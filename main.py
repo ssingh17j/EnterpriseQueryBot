@@ -1,7 +1,7 @@
 import gradio as gr
 
 def func(input: str):
-    return input+" hi"
+    return input+" hi, how are you?"
 
 def main():
     print("main start")
