@@ -4,8 +4,6 @@ services:
     build: .
     stdin_open: true
     tty: true
-    pre_stop:
-      - command: pip freeze > requirements.txt
     volumes:
       - ./:/app
     environment:
